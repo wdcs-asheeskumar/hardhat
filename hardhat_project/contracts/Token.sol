@@ -60,10 +60,12 @@ contract Token {
       *
       * Finally, the event Transfer is emitted at the end of the transfer, emiting the balance of sender, receiver
       * and amount.
+      */
     function balanceOf(address account) external view returns (uint256) {
         return balances[account];
     }
     /**
       * @dev Here we have created a balanceOf function to check the balance of the account. It takes one parameter
       * which is the account address of the account holder whose balance has to be checked.
+      */
 }
